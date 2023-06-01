@@ -36,6 +36,7 @@ private extension AddTaskVC {
         addButton.layer.cornerRadius = 20
         cancelButton.layer.borderColor = ColorConstants.border?.cgColor
         textFieldTitle.delegate = self
+        textFieldTime.delegate = self
         setDatePicker()
     }
     
@@ -86,6 +87,13 @@ extension AddTaskVC {
 }
 
 extension AddTaskVC: UITextFieldDelegate {
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        if textFieldTime == textField {
+            textFieldTitle.resignFirstResponder()
+        }
+        return true
+    }
+    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textFieldTitle == textField {
             return range.location < 50
@@ -100,6 +108,7 @@ extension AddTaskVC: AddTaskPresenterToViewProtocol {
     }
     
     func showDatePicker() {
+        textFieldTitle.resignFirstResponder()
         textFieldTime.becomeFirstResponder()
     }
     
