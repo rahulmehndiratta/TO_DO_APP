@@ -1,4 +1,10 @@
 # TO_DO_APP
+
+
+
+
+
+
 TO_DO_APP Assignment in Swift
 This is a sample iOS app that demonstrates the implementation of a TODO application using the VIPER architectural pattern and the Realm database.
 
@@ -21,6 +27,9 @@ Entity: Represents the task object and its properties.
 Router: Handles navigation between different screens or modules within the app.
 Realm Database Integration
 The app utilizes the Realm database for data persistence. The TaskModel class represents the task entity and includes properties such as title, time, createdAt, and status. The Realm database allows for easy storage, retrieval, and modification of task objects.
+
+https://github.com/rahulmehndiratta/TO_DO_APP/assets/10243461/f52d252b-8017-4d8f-80c4-e48b6f69251f
+
 
 Requirements
 iOS 13.0+
