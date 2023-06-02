@@ -52,7 +52,7 @@ Tap on an existing task to view its details and make changes.
 Swipe left on a task to reveal options for editing or deleting the task.
 Use the segmented control at the top to filter tasks by status (TODO, Pending, or Completed).
 Credits
-The TODO Swift Assignment App was developed by [Your Name].
+The TODO Swift Assignment App was developed by Rahul Mehndiratta.
 
 License
 This project is licensed under the MIT License.
