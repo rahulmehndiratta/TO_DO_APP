@@ -28,7 +28,6 @@ Router: Handles navigation between different screens or modules within the app.
 Realm Database Integration
 The app utilizes the Realm database for data persistence. The TaskModel class represents the task entity and includes properties such as title, time, createdAt, and status. The Realm database allows for easy storage, retrieval, and modification of task objects.
 
-https://github.com/rahulmehndiratta/TO_DO_APP/assets/10243461/f52d252b-8017-4d8f-80c4-e48b6f69251f
 
 
 Requirements
