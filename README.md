@@ -1,4 +1,14 @@
 # TO_DO_APP
+
+
+
+
+
+https://github.com/rahulmehndiratta/TO_DO_APP/assets/10243461/94841409-f55b-4936-98a5-32524f8e8726
+
+
+
+
 TO_DO_APP Assignment in Swift
 This is a sample iOS app that demonstrates the implementation of a TODO application using the VIPER architectural pattern and the Realm database.
 
@@ -22,6 +32,8 @@ Router: Handles navigation between different screens or modules within the app.
 Realm Database Integration
 The app utilizes the Realm database for data persistence. The TaskModel class represents the task entity and includes properties such as title, time, createdAt, and status. The Realm database allows for easy storage, retrieval, and modification of task objects.
 
+
+
 Requirements
 iOS 13.0+
 Xcode 14.0+
@@ -43,7 +55,7 @@ Tap on an existing task to view its details and make changes.
 Swipe left on a task to reveal options for editing or deleting the task.
 Use the segmented control at the top to filter tasks by status (TODO, Pending, or Completed).
 Credits
-The TODO Swift Assignment App was developed by [Your Name].
+The TODO Swift Assignment App was developed by Rahul Mehndiratta.
 
 License
 This project is licensed under the MIT License.
